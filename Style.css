@@ -73,21 +73,21 @@ a{
   /* padding-left: 20px; */
 }
 .container-1 {
-  display: flex; /* Enables flexbox layout */
-  justify-content: space-between; /* Adds space between the two blocks */
-  align-items: center; /* Aligns items vertically in the center */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
   gap: 20px; 
 }
 
 #cont-col1, #cont-col2 {
-  flex: 1; /* Ensures both divs take equal width */
-  max-width: 50%; /* Prevents either div from exceeding half the container width */
-  box-sizing: border-box; /* Includes padding and border in the width calculation */
+  flex: 1; 
+  max-width: 50%;
+  box-sizing: border-box;
 }
 
 #cont-col1 img {
-  width: 100%; /* Ensures the image scales to fit its container */
-  height: auto; /* Maintains the aspect ratio of the image */
+  width: 100%; 
+  height: auto;
 }
 
 .contant{
@@ -109,15 +109,15 @@ a{
     height: auto;
   }
   .container-1 {
-    display: flex; /* Enables flexbox layout */
-    justify-content: space-between; /* Adds space between the two blocks */
-    align-items: center; /* Aligns items vertically in the center */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     gap: 20px; 
   }
   
   #cont-col2 {
-    max-width: 100%; /* Prevents either div from exceeding half the container width */
-    box-sizing: border-box; /* Includes padding and border in the width calculation */
+    max-width: 100%; 
+    box-sizing: border-box; 
   }
   
   #cont-col1 {
